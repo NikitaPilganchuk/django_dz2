@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Доставка пиццы</title>
+    <style>
+        /* Добавьте стили по вашему усмотрению */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #ff0000;
+            color: #fff;
+        }
+
+        h1 {
+            margin-top: 0;
+        }
+
+        .pizza-menu {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .pizza-card {
+            width: calc(33.33% - 20px);
+            margin-bottom: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .pizza-card img {
+            width: 100%;
+            max-height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+
+        .pizza-card h3 {
+            margin-top: 10px;
+        }
+
+        .pizza-card p {
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Доставка пиццы</h1>
+        </header>
+        <div class="pizza-menu">
+            <div class="pizza-card">
+                <img src="pizza1.jpg" alt="Pizza 1">
+                <h3>Пицца Маргарита</h3>
+                <p>Томатный соус, сыр Моцарелла, свежие томаты, базилик</p>
+            </div>
+            <div class="pizza-card">
+                <img src="pizza2.jpg" alt="Pizza 2">
+                <h3>Пицца Пепперони</h3>
+                <p>Томатный соус, сыр Моцарелла, пепперони колбаски, томаты, орегано</p>
+            </div>
+            <div class="pizza-card">
+                <img src="pizza3.jpg" alt="Pizza 3">
+                <h3>Пицца Гавайская</h3>
+                <p>Томатный соус, сыр Моцарелла, ветчина, ананасы</p>
+            </div>
+            <div class="pizza-card">
+                <img src="pizza4.jpg" alt="Pizza 4">
+                <h3>Пицца Четыре сыра</h3>
+                <p>Сыр Моцарелла, сыр Пармезан, сыр Чеддер, сыр Блю Чиз</p>
+            </div>
+            <div class="pizza-card">
+                <img src="pizza5.jpg" alt="Pizza 5">
+                <h3>Пицца Вегетарианская</h3>
+                <p>Томатный соус, сыр Моцарелла, грибы, перец, лук, орегано</p>
+            </div>
+            <!-- Добавьте другие пиццы с описаниями -->
+        </div>
+    </div>
+</body>
+</html>
