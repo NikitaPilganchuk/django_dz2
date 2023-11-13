@@ -10,4 +10,4 @@ def contact_information(request):
         email = request.POST.get('email')
         message = request.POST.get('message')
         print(name, message, email)
-    return render(request, 'catalog/contact_information.html')
+    return render(request, 'contacts/contact_information.html')
